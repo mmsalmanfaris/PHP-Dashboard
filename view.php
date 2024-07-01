@@ -54,7 +54,7 @@
                                     <td><?php echo $row['Username']?></td>
                                     <td><?php echo $row['Password']?></td>
                                     <td>
-                                        <a href="" class="btn btn-sm btn-primary me-2"><i class="bi bi-pencil-square"></i></a>
+                                        <a href="edit.php?id=<?php echo $row['UserID']?>" class="btn btn-sm btn-primary me-2"><i class="bi bi-pencil-square"></i></a>
                                         <a href="delete.php?id=<?php echo $row['UserID']?>" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
                                     </td>
                                 </tr>
